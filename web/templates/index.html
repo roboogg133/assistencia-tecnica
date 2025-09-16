@@ -13,10 +13,11 @@
         .branquinho {
             color: #ccc;
         }
+
     </style>
 </head>
 <body>
-    <header>
+    <header class="border-bottom">
         <nav class="navbar navbar-dark bg-dark px-2 flex-nowrap">
 
             <button class="btn btn-outline-secondary me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#sideMenu" aria-controls="#sideMenu">
@@ -51,18 +52,17 @@
             </div>
         </div>
     </header>
-    <br>
 
     <main>
 
-        <section class="container-fluid bg-dark py-3">
+        <section class="container-fluid bg-dark py-3 pb-2">
             <div id="carouselMain" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="container px-5">
                             <div class="row bg-dark text-light px-5 align-items-center">
 
-                                <div class="col-auto text-center">
+                                <div class="col-8 text-center">
                                     <h1>Assitencia técnica de confiança!</h1>
                                     <p><span class="text-success">Celulares, notebooks, tablets,</span> e muito mais, seus aparelhos como novos!</p>
                                 </div>
@@ -76,7 +76,7 @@
                         <div class="container px-5">
                             <div class="row bg-dark text-light px-5 align-items-center">
 
-                                <div class="col-8 text-center">
+                                <div class="col-8 col-12-sm text-center">
                                     <h1>Cuidamos da sua casa!</h1>
                                     <p>Consertamos o que faz parte da sua rotina, reparo rápido e seguro para seus <span class="text-success">eletrodomésticos</span>.</p>
                                 </div>
@@ -90,12 +90,12 @@
                         <div class="container px-5">
                             <div class="row bg-dark text-light px-5 align-items-center">
 
-                                <div class="col-7 text-center">
+                                <div class="col-7 col-12-sm text-center">
                                     <h1>Equipe especializada!</h1>
                                     <p>Profissionais treinados para oferecer qualidade e confiança. Especialistas em cuidar do que é seu!</p>
                                     <div class="row justify-content-center">
                                         <div class="col-auto">
-                                            <img src="../static/img/arrombado23.png" style="height: 10vh1;" alt="Mascote">
+                                            <img src="../static/img/arrombado33.png" style="height: 10vh1;" alt="Mascote">
                                         </div>
                                     </div>
                                 </div>
@@ -109,7 +109,7 @@
                         <div class="container px-5">
                             <div class="row bg-dark text-light px-5 align-items-center">
 
-                                <div class="col-8 text-center">
+                                <div class="col-8 col-12-sm text-center">
                                     <h1>Serviços com <span class="text-primary">garantia</span></h1>
                                     <p>Rapidez, transparência e suporte dedicado<br>Garantia do seus aparelhos de 7 - 60 dias.</p>
                                 </div>
@@ -131,13 +131,13 @@
             </div>
         </section>
 
-        <section class=" container-lg pt-2"> <!-- Featured -->
+        <section class="container-lg pt-2" id="pcFeatured"> <!-- Featured -->
             <div class="row bg-dark rounded-3 pb-2">
                 <div class="row text-light">
                     <h2>Serviços mais frequentes</h2>
                 </div>
 
-                <span class="col-12 col-md-2 bg-light rounded-3 py-3 ms-4 mb-3">
+                <span class="col-10 col-md-2 bg-light rounded-3 py-3 ms-4 mb-3">
                     <div class="row">
                         <p>Troca de pelicula</p>
                         <img src="../static/img/cartao.png" alt="">
@@ -145,7 +145,7 @@
                     </div>
                 </span>
 
-                <span class="col-12 col-md-2 bg-light rounded-3 py-3 ms-4 mb-3">
+                <span class="col-10 col-md-2 bg-light rounded-3 py-3 ms-4 mb-3">
                     <div class="row">
                         <p>Troca de tela</p>
                         <img src="../static/img/cartao.png" alt="">
@@ -153,7 +153,7 @@
                     </div>
                 </span>
 
-                <span class="col-12 col-md-2 bg-light rounded-3 py-3 ms-4 mb-3">
+                <span class="col-10 col-md-2 bg-light rounded-3 py-3 ms-4 mb-3">
                     <div class="row">
                         <p>Instalação de programas de computador</p>
                         <img src="../static/img/cartao.png" alt="">
@@ -161,7 +161,7 @@
                     </div>
                 </span>
 
-                <span class="col-12 col-md-2 bg-light rounded-3 py-3 ms-4 mb-3">
+                <span class="col-10 col-md-2 bg-light rounded-3 py-3 ms-4 pr-1 mb-3">
                     <div class="row">
                         <p>Concerto de máquina de lavar</p>
                         <img src="../static/img/cartao.png" alt="">
@@ -169,7 +169,7 @@
                     </div>
                 </span>
 
-                <span class="col-12 col-md-2 bg-light rounded-3 py-3 ms-4 mb-3">
+                <span class="col-10 col-md-2 bg-light rounded-3 py-3 ms-4 mb-3">
                     <div class="row">
                         <p>Troca de bateria</p>
                         <img src="../static/img/cartao.png" alt="">
@@ -181,6 +181,21 @@
 
             </div>
         </section>
+
+        <section class="container my-3"> <!--Offers -->
+            <div class="row">
+                <div class="col-2 rounded-3 bg-dark py-2 px-3">
+                    <div class="row rounded-3 bg-light text-center py-4">
+                        <h3>Ofertas</h3>
+                        <div class="col-12 text-center">
+                            <img class="mx-auto d-block" src="../static/img/desconto.webp" style="height: 10vh;" alt="Oferta">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section> 
+
 
     </main>
     <footer class="bg-dark text-white">
