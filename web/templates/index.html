@@ -1,49 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>200Assist</title>
-  <!-- css -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>200Assist</title>
+    <!-- css -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
     <!-- iscdones -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="../static/css/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        .branquinho {
+            color: #ccc;
+        }
+    </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+    <header>
+        <nav class="navbar navbar-dark bg-dark px-2 flex-nowrap">
 
-    <button class="btn btn-outline-secondary me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#sideMenu" aria-controls="#sideMenu">
-      <i class="bi bi-list"></i>
-    </button>
+            <button class="btn btn-outline-secondary me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#sideMenu" aria-controls="#sideMenu">
+                <i class="bi bi-list"></i>
+            </button>
 
-    <form class="d-flex flex-grow-1 mx-3">
-      <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-    </form>
+            <form class="d-flex flex-grow-1 mx-3">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            </form>
 
-    <div class="d-flex align-items-center">
-      <a href="#" class="btn btn-outline-light me-2"><i class="bi bi-heart-fill"></i></a>
-      <a href="#" class="btn btn-outline-light"><i class="bi bi-person-circle"></i></a>
-    </div>
-  </nav>
-
-
-  <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="sideMenu" aria-labelledby="#sideMenuLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title text-light" id="sideMenuLabel">200Assist</h5>
-      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
-    </div>
-    <div class="offcanvas-body">
-      <ul class="list-unstyled">
-        <li><a href="#home" class="text-decoration-none d-block py-2 text-light">Home</a></li>
-        <li><a href="#register" class="text-decoration-none d-block py-2 text-light">Registrar</a></li>
-        <li><a href="#login" class="text-decoration-none d-block py-2 text-light">Login</a></li>
-        <li><a href="#account" class="text-decoration-none d-block py-2 text-light">Conta</a></li>
-        <li><a href="#services" class="text-decoration-none d-block py-2 text-light">Serviços</a></li>
-      </ul>
-    </div>
-  </div>
+            <div class="d-flex align-items-center">
+                <a href="#" class="btn btn-outline-light me-2"><i class="bi bi-heart-fill"></i></a>
+                <a href="#" class="btn btn-outline-light"><i class="bi bi-person-circle"></i></a>
+            </div>
+        </nav>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="sideMenu" aria-labelledby="#sideMenuLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-light" id="sideMenuLabel">200Assist</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <ul class="list-unstyled">
+                    <li><a href="#home" class="text-decoration-none d-block py-2 text-light">Home</a></li>
+                    <li><a href="#register" class="text-decoration-none d-block py-2 text-light">Registrar</a></li>
+                    <li><a href="#login" class="text-decoration-none d-block py-2 text-light">Login</a></li>
+                    <li><a href="#account" class="text-decoration-none d-block py-2 text-light">Conta</a></li>
+                    <li><a href="#services" class="text-decoration-none d-block py-2 text-light">Serviços</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer class="bg-dark text-white">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-9">
+                <h5>Sobre nossa loja</h5>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-11">
+                        <p class="branquinho">O 200Assist é uma loja que busca inovar no ramo de assistência tecna. Buscamos trazer praticidade para população ao ter algum problema com seus aparelhos, de uma maneira intuitivas, de qualidade e inclusivo para a maioria das pessoas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="text-center">Formas de pagamento</h3>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-4">
+                <i class="bi bi-credit-card-fill"> Cartão de crédito</i>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-1"></div>
+        </div>
+
+    </footer>
+
+
+  <script src="../static/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
