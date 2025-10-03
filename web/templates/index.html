@@ -20,7 +20,7 @@
 
     </style>
 </head>
-<body>
+<body class="overflow-x-hidden">
     <header class="border-bottom">
         <nav class="navbar navbar-dark bg-dark px-2 flex-nowrap">
 
@@ -187,9 +187,9 @@
         </section>
 
         <section class="container my-3"> <!--Offers -->
-            <div class="row overflow-x-auto flex-nowrap">
-                <div class="col-2 rounded-3 bg-dark py-2 px-3">
-                    <div class="row rounded-3 bg-light text-center py-5">
+            <div class="row overflow-x-auto flex-nowrap overflow-y-hidden">
+                <div class="col-auto rounded-3 bg-dark py-2 px-3">
+                    <div class="row rounded-3 bg-white text-center py-5">
                         <h3>Ofertas</h3>
                         <div class="col-12">
                             <img class="mx-auto d-block" src="../static/img/desconto.webp" style="height: 10vh;" alt="Oferta">
@@ -197,17 +197,86 @@
                     </div>
                 </div>
 
-                <div class="col-auto rounded-3 bg-dark py-2 px-3 ms-4">
-                    <div class="row text-light">
-                        <h4>Eletrodomésticos</h4>
-                        <div class="col-4 rounded-3 bg-light">
-                            <div class="row">
-                                <img src="../static/img/batedeira.webp" alt="batedeira">
-                                <a href="#batedeira">Batedeira</a>
+                <div class="appx bg-dark text-white rounded-3">
+                    <h5>Eletrodomésticos</h5>
+                    <div class="d-flex align-items-center appy">
+                        <div class="offer bg-white rounded-3">
+                            <div class="imgframe">
+                                <img src="../static/img/batedeira.webp" style="height: 15vh;" alt="">
                             </div>
+                            <a href="#batedeira">sadsad</a>
+                            <h5 style="margin: 0;" class="text-dark">R$ 234</h5>
+                            <p class="text-dark" style="margin-bottom: 1px;" >Frete Grátis</p>
                         </div>
+                        <div class="offer bg-white rounded-3">
+                            <div class="imgframe">
+                                <img src="../static/img/batedeira.webp" style="height: 15vh;" alt="">
+                            </div>
+                            <a href="#batedeira">sadsad</a>
+                            <h5 style="margin: 0;" class="text-dark">R$ 234</h5>
+                            <p class="text-dark" style="margin-bottom: 1px;" >Frete Grátis</p>
+                        </div>
+                        <div class="offer bg-white rounded-3">
+                            <div class="imgframe">
+                                <img src="../static/img/batedeira.webp" style="height: 15vh;" alt="">
+                            </div>
+                            <a href="#batedeira">sadsad</a>
+                            <h5 style="margin: 0;" class="text-dark">R$ 234</h5>
+                            <p class="text-dark" style="margin-bottom: 1px;" >Frete Grátis</p>
+                        </div>
+                        <div class="offer bg-white rounded-3">
+                            <div class="imgframe">
+                                <img src="../static/img/batedeira.webp" style="height: 15vh;" alt="">
+                            </div>
+                            <a href="#batedeira">sadsad</a>
+                            <h5 style="margin: 0;" class="text-dark">R$ 234</h5>
+                            <p class="text-dark" style="margin-bottom: 1px;" >Frete Grátis</p>
+                        </div>
+                        <div class="offer bg-white rounded-3">
+                            <div class="imgframe">
+                                <img src="../static/img/batedeira.webp" style="height: 15vh;" alt="">
+                            </div>
+                            <a href="#batedeira">sadsad</a>
+                            <h5 style="margin: 0;" class="text-dark">R$ 234</h5>
+                            <p class="text-dark" style="margin-bottom: 1px;" >Frete Grátis</p>
+                        </div>
+                        <div class="offer bg-white rounded-3">
+                            <div class="imgframe">
+                                <img src="../static/img/batedeira.webp" style="height: 15vh;" alt="">
+                            </div>
+                            <a href="#batedeira">sadsad</a>
+                            <h5 style="margin: 0;" class="text-dark">R$ 234</h5>
+                            <p class="text-dark" style="margin-bottom: 1px;" >Frete Grátis</p>
+                        </div>
+                        
                     </div>
                 </div>
+                <style>
+                    .appy {
+                        display: flex;
+                        gap: 15px;
+                    }
+                    .appx {
+                        width: fit-content;
+                        min-width: 2000px;
+                        height: 31vh;
+                        margin: 0 30px;
+                    }
+                    .offer {
+                        display: flex;
+                        height: 25.5vh;
+                        min-width: 200px;
+                        flex-direction: column;
+                        gap: 0px;
+                        padding: 0 5px;
+                    }
+                    .imgframe {
+                        min-width: 100%;
+                        display: flex;
+                        justify-content: center;
+
+                    }
+                </style>
             </div>
             
         </section> 
